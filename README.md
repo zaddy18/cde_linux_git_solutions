@@ -13,7 +13,7 @@ This repository contains solutions to various tasks using Bash and SQL scripts.
 
 This script downloads the CSV file from the specified URL and saves it in the raw directory, Renames a specific column and selects specific columns from the CSV file, then saves the transformed data in the transformed directory.
 
-- **Script**: [CDE_Task1.sh](cde_linux_git_solutions/Scripts/Bash/CDE_Task1.sh)
+- **Script**: [CDE_Task1.sh](/Scripts/Bash/CDE_Task1.sh)
 
 ### Import CSV to PostgreSQL
 
