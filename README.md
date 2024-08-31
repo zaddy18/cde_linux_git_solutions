@@ -70,4 +70,4 @@ ORDER BY
     a.name ASC;** . This query joins three tables: region, sales_reps, and accounts. Selects three columns: `region.name`, `sales_reps.name`, and `accounts.name`. The accounts are sorted alphabetically by `account name`.
 
 
- **SQL**: [SQL_answers.sql](/Scripts/Bash/SQL_answers.sql)
+ **SQL**: [SQL_answers.sql](/Scripts/SQL/SQL_answers.sql)
