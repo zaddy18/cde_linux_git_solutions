@@ -6,7 +6,6 @@ This repository contains solutions to various tasks using Bash and SQL scripts.
 
 - [Bash Scripts](#bash-scripts)
 - [SQL Scripts](#sql-scripts)
-- [Usage](#usage)
 
 ## Bash Scripts
 
@@ -33,6 +32,9 @@ This script creates a destination folder, checks the source folder for CSV and J
 - `curl`: Used to download the CSV file. Ensure curl is installed on your system.
 - `awk`: Used to transform the CSV file. Ensure awk is installed on your system.
 
+### Usage
+- Run with bash script.sh or;
+- Enable permissions to the script by: chmod +x script.sh before running.
 
 ## SQL Script
 
