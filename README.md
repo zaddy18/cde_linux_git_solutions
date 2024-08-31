@@ -19,14 +19,14 @@ This script downloads the CSV file from the specified URL and saves it in the ra
 
 This script iterates over CSV files in a specified directory, ensures they are readable and executable, infers the schema for each file, creates the corresponding tables in the `posey` PostgreSQL database, and then imports the data into those tables.
 
-- **Script**: [copy_csv_to_posey_db.sh](cde_linux_git_solutions/Scripts/Bash/copy_csv_to_posey_db.sh)
+- **Script**: [copy_csv_to_posey_db.sh](/Scripts/Bash/copy_csv_to_posey_db.sh)
 
 
 ### Move CSV and JSON files
 
 This script creates a destination folder, checks the source folder for CSV and Json files and moves the files (If available) to the destination folder.
 
-- **Script**: [migrate_files.sh](cde_linux_git_solutions/Scripts/Bash/migrate_files.sh)
+- **Script**: [migrate_files.sh](/Scripts/Bash/migrate_files.sh)
 
 ### Dependencies
 - `curl`: Used to download the CSV file. Ensure curl is installed on your system.
@@ -70,4 +70,4 @@ ORDER BY
     a.name ASC;** . This query joins three tables: region, sales_reps, and accounts. Selects three columns: `region.name`, `sales_reps.name`, and `accounts.name`. The accounts are sorted alphabetically by `account name`.
 
 
-- **SQL**: [SQL_answers.sql](cde_linux_git_solutions/Scripts/Bash/SQL_answers.sql)
+- **SQL**: [SQL_answers.sql](/Scripts/Bash/SQL_answers.sql)
